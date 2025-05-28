@@ -20,7 +20,7 @@ export default function SideNav(props) {
 
     return (
         <nav className={' ' + (showSideMenu ? 'open' : '')}>
-            <div className={'header ' + (!showSideMenu ? 'open' : '')}>
+            <div className={'header ' + (showSideMenu ? 'open' : '')}>
                 <button onClick={handleCloseMenu} className='open-nav-button'>
                     <i className="fa-solid fa-arrow-left-long"></i>
                 </button>
